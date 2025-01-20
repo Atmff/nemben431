@@ -1,0 +1,1 @@
+Rövid bemutatkozas magadrol
