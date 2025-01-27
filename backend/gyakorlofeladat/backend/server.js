@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
     res.send("Fut a backend!");
 })
  
-app.get("/regiok",(req, res) => {
+ app.get("/regiok",(req, res) => {
     const sql = "SELECT * FROM `regiok`";
     db.query(sql, (err, result) => {
         if(err) return res.json(err);
@@ -28,4 +28,4 @@ app.get("/regiok",(req, res) => {
  
 app.listen(3001, () => {
     console.log("Server is runningg on port 3001");
-});
+}); 
